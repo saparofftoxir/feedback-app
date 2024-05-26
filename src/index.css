@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: jost;
+}
+.gradient {
+  background: linear-gradient(to right, #28a7ed, #a337f6, #e84d70);
+}
+.inline-block {
+  display: inline-block;
+}
+body {
+  background-color: #F7F8FD;
+}
