@@ -1,9 +1,10 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
 import { nanoid } from 'nanoid'
-import React, { useState } from 'react'
+import React from 'react'
 import oval from "../assets/Oval.svg"
 import ovall from "../assets/ovall.svg"
 import ovalll from "../assets/Ovalll.svg"
-import background from "../assets/backgroundSv.svg"
 import { useNavigate } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 function Aside({ filterBtn, chosenId }) {
