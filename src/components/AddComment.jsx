@@ -128,9 +128,6 @@ function AddComment() {
                     <span className='text-gray text-18 font-bold'>
                         Comments</span>
                 </div>
-
-
-
                 {
                     category?.comment.length > 0 ?
                         <div className='w-full flex items-start justify-start bg-cyan-'>
@@ -148,10 +145,6 @@ function AddComment() {
                                     <button onClick={replyBtn} className='text-bluee text-16 hover:underline ease-linear duration-150 font-semibold'>Reply</button>
                                 </div>
                                 <div className='w-full flex flex-col gap-y-1'>
-
-
-
-
                                     {
                                         activeReply ?
 

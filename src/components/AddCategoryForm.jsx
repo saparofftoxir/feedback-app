@@ -77,7 +77,7 @@ function AddCategoryForm() {
             <div className='w-[430px] relative min-h-[510px] rounded-xl mx-auto'>
                 <div className='flex items-center gap-x-3 '>
                     <img src={strel} alt="" />
-                    <button onClick={goBack} className='text-14 font-semibold text-light_gray'>Go Back</button>
+                    <button onClick={goBack} className='text-14 font-semibold hover:underline ease-linear duration-100 text-light_gray'>Go Back</button>
                 </div>
                 <div className='w-full absolute flex  pt-4 pl-10'>
                     <img src={plus} alt="" />

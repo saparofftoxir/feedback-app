@@ -16,7 +16,6 @@ function EditFeedback() {
     const [status,setStatus]=useState(EditCategory?.status.title || '');
     const [category, setCategory] = useState(EditCategory?.category?.title || '')
 
-
     const [active, setActive] = useState(false)
     const [activeStatus, setActiveStatus] = useState(false)
     const [selectedItem, setSelectedItem] = useState(null);
@@ -118,7 +117,7 @@ function EditFeedback() {
                                 <h4 className='text-14 text-gray2'>Add a short, descriptive headline</h4>
 
                             </div>
-                            <input value={EditCategory?.title} required onChange={e => setTitle(e.target.value)} className='w-full cursor-pointer h-[48px] bg-input_background px-5 rounded outline-none' />
+                            <input value={title} required onChange={e => setTitle(e.target.value)} className='w-full cursor-pointer h-[48px] bg-input_background px-5 rounded outline-none' />
 
                         </div>
                         <div className='h-106 bg- flex flex-col justify-between rounded-lg '>
@@ -183,7 +182,7 @@ function EditFeedback() {
                                 <h4 className='text-[11.5px] text-gray2'>Include any specific comments on what should be improved, added, etc.</h4>
 
                             </div>
-                            <textarea onChange={e => setTextArea(e.target.value)} value={EditCategory?.textArea} required className='w-full flex items-center justify-between h-20 bg-input_background p-2 rounded outline-none'>
+                            <textarea onChange={e => setTextArea(e.target.value)} value={textArea} required className='w-full flex items-center justify-between h-20 bg-input_background p-2 rounded outline-none'>
 
                             </textarea>
 
